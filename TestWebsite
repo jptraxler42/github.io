@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>JP | Welcome</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 700px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+    header { text-align: center; margin-bottom: 2rem; }
+    h1 { margin-bottom: 0.25rem; }
+    .tagline { color: #666; font-size: 1.1rem; margin-top: 0; }
+    nav a { margin: 0 0.5rem; }
+    footer { margin-top: 4rem; font-size: 0.85rem; color: #888; text-align: center; }
+    .cta { display:inline-block; margin-top:1rem; padding:0.5rem 1rem; border:1px solid #444; border-radius:4px; text-decoration:none; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>JP</h1>
+    <p class="tagline">Technical Account Manager • Inkjet Integration • AI Strategy</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I bridge industrial inkjet technology, customer strategy, and emerging AI tools. This site is a lightweight launchpad—more to come.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <ul>
+      <li>IIJ XYP50 entry platform – rapid R&D deployment</li>
+      <li>Inkjet for Perovskite Solar Pilot Study</li>
+      <li>SNML: Short Nighttime Micro Learning series</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Find me on <a href="https://www.linkedin.com">LinkedIn</a> or drop a note: <a href="mailto:you@example.com">you@example.com</a>.</p>
+    <a class="cta" href="mailto:you@example.com?subject=Contact%20from%20Website">Email JP</a>
+  </section>
+
+  <footer>© <span id="year"></span> JP. Built on GitHub Pages.</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
